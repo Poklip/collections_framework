@@ -10,7 +10,7 @@ public class Parser {
         try(BufferedReader br = new BufferedReader(new FileReader(file))) {
             String line;
             while ((line = br.readLine()) != null) {
-                if (line.contains("страдание")) {
+                if (line.contains("страдани")) {
                     counter += 1;
                 }
             }
